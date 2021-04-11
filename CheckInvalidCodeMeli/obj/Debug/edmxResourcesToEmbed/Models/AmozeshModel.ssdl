@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="amozeshModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="fostad">
+    <Key>
+      <PropertyRef Name="code_ostad" />
+    </Key>
+    <Property Name="code_ostad" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="name" Type="varchar" MaxLength="30" />
+    <Property Name="family" Type="varchar" MaxLength="40" Nullable="false" />
+    <Property Name="namep" Type="varchar" MaxLength="30" />
+    <Property Name="idd" Type="varchar" MaxLength="20" />
+    <Property Name="idd_meli" Type="varchar" MaxLength="20" />
+    <Property Name="sex" Type="tinyint" Nullable="false" />
+    <Property Name="nsex" Type="varchar" MaxLength="10" Nullable="false" />
+    <Property Name="idmadrak" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="namemadrak" Type="varchar" MaxLength="50" />
+    <Property Name="idresh" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="nameresh" Type="varchar" MaxLength="50" />
+    <Property Name="martabeh" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="namemartabeh" Type="varchar" MaxLength="30" />
+    <Property Name="nahveh_hamk" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="name_nahveh" Type="varchar" MaxLength="30" />
+    <Property Name="saat_movazaf" Type="money" />
+    <Property Name="code_sazman" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="sal_tav" Type="varchar" MaxLength="10" />
+    <Property Name="mahal_tav" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="name_mahal_tav" Type="varchar" MaxLength="50" />
+    <Property Name="mahal_sodor" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="name_mahal_sodor" Type="varchar" MaxLength="50" />
+    <Property Name="sal_madrak" Type="varchar" MaxLength="4" />
+    <Property Name="keshvar" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="name_keshvar" Type="varchar" MaxLength="50" />
+    <Property Name="type_university" Type="int" />
+    <Property Name="nametypeuniversity" Type="varchar" MaxLength="30" />
+    <Property Name="university" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="nameuniversity" Type="varchar" MaxLength="50" />
+    <Property Name="idgroup" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="namegroup" Type="varchar" MaxLength="50" />
+    <Property Name="date_est" Type="varchar" MaxLength="8" />
+    <Property Name="vaz_fali" Type="int" />
+    <Property Name="name_vaz" Type="varchar" MaxLength="30" />
+    <Property Name="type_est" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="name_type_est" Type="varchar" MaxLength="30" />
+    <Property Name="add_kar" Type="varchar" MaxLength="300" />
+    <Property Name="add_hom" Type="varchar" MaxLength="300" />
+    <Property Name="tel_kar" Type="varchar" MaxLength="50" />
+    <Property Name="tel_hom" Type="varchar" MaxLength="50" />
+    <Property Name="saat_tadris" Type="int" />
+    <Property Name="add_email" Type="varchar" MaxLength="60" />
+    <Property Name="semat" Type="tinyint" />
+    <Property Name="siba" Type="varchar" MaxLength="50" />
+    <Property Name="mobile" Type="varchar" MaxLength="15" />
+    <Property Name="code_posti" Type="varchar" MaxLength="20" />
+    <Property Name="rial_ost" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="rial_ost2" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="payeh" Type="varchar" MaxLength="5" />
+    <Property Name="add_email2" Type="varchar" MaxLength="50" />
+    <Property Name="ozv_elmi" Type="bigint" />
+    <Property Name="sanavat_azad" Type="varchar" MaxLength="4" />
+    <Property Name="sanavat_vahed" Type="varchar" MaxLength="4" />
+    <Property Name="hamkari_pp" Type="varchar" MaxLength="2" />
+    <Property Name="avrg_tadris" Type="varchar" MaxLength="4" />
+    <Property Name="hamkar_out" Type="varchar" MaxLength="1" />
+    <Property Name="tadris_magh" Type="varchar" MaxLength="6" />
+    <Property Name="vaz_nomreh" Type="varchar" MaxLength="1" />
+    <Property Name="shekayat" Type="varchar" MaxLength="1" />
+    <Property Name="ConvertData" Type="tinyint" />
+    <Property Name="os_idresh" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="saat_tad1" Type="int" />
+    <Property Name="IsEmailSend" Type="bit" />
+    <Property Name="arzeshost" Type="varchar" MaxLength="7" />
+    <Property Name="citybank" Type="varchar" MaxLength="30" />
+    <Property Name="citybsnk" Type="varchar" MaxLength="50" />
+    <Property Name="shobbank" Type="varchar" MaxLength="50" />
+    <Property Name="codebank" Type="varchar" MaxLength="50" />
+    <Property Name="old_code" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="aa" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="omomi" Type="tinyint" />
+    <Property Name="elmi" Type="tinyint" />
+    <Property Name="nezam" Type="tinyint" />
+    <Property Name="date_elmi" Type="varchar" MaxLength="8" />
+    <Property Name="num_elmi" Type="varchar" MaxLength="15" />
+    <Property Name="date_omomi" Type="varchar" MaxLength="8" />
+    <Property Name="num_omomi" Type="varchar" MaxLength="15" />
+    <Property Name="sharh" Type="varchar" MaxLength="250" />
+    <Property Name="DATE_TAV" Type="varchar" MaxLength="8" />
+    <Property Name="NATIONALITY" Type="tinyint" />
+    <Property Name="CODE_BIMEH" Type="varchar" MaxLength="20" />
+    <Property Name="CODE_BAYEGAN" Type="varchar" MaxLength="20" />
+    <Property Name="SMS_WEB" Type="bit" />
+  </EntityType>
+  <EntityType Name="fostad_head">
+    <Key>
+      <PropertyRef Name="ocode" />
+      <PropertyRef Name="azterm" />
+    </Key>
+    <Property Name="id" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ocode" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="azterm" Type="varchar" MaxLength="7" Nullable="false" />
+    <Property Name="os_idresh" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="idgroup" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="idmadrak" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="martabeh" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="nahveh_hamk" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="saat_movazaf" Type="money" />
+    <Property Name="sal_madrak" Type="varchar" MaxLength="4" />
+    <Property Name="keshvar" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="type_university" Type="int" />
+    <Property Name="university" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="date_est" Type="varchar" MaxLength="8" />
+    <Property Name="vaz_fali" Type="int" />
+    <Property Name="type_est" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="saat_tadris" Type="int" />
+    <Property Name="semat" Type="tinyint" />
+    <Property Name="payeh" Type="varchar" MaxLength="5" />
+    <Property Name="omomi" Type="tinyint" />
+    <Property Name="elmi" Type="tinyint" />
+    <Property Name="date_elmi" Type="varchar" MaxLength="8" />
+    <Property Name="num_elmi" Type="varchar" MaxLength="15" />
+    <Property Name="date_omomi" Type="varchar" MaxLength="8" />
+    <Property Name="num_omomi" Type="varchar" MaxLength="15" />
+    <Property Name="TAX" Type="tinyint" />
+    <Property Name="MASH_BIM" Type="tinyint" />
+    <Property Name="MARTABEH_HAGH" Type="numeric" Precision="18" Scale="0" />
+  </EntityType>
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'amozesh.dbo.vOs_tb_TheseDb' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="vOs_tb_TheseDb">
+    <Key>
+      <PropertyRef Name="id_os" />
+      <PropertyRef Name="name_os" />
+      <PropertyRef Name="famili_os" />
+      <PropertyRef Name="ZarfyatDav" />
+    </Key>
+    <Property Name="id_os" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="name_os" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="famili_os" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="resh" Type="nvarchar" MaxLength="150" />
+    <Property Name="magta" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="rotbe" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="groh" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="zarfyat_mosh" Type="int" />
+    <Property Name="pass" Type="nvarchar" MaxLength="50" />
+    <Property Name="tayed" Type="int" />
+    <Property Name="code_meli" Type="nvarchar" MaxLength="10" />
+    <Property Name="savabegh" Type="nvarchar(max)" />
+    <Property Name="semat" Type="int" />
+    <Property Name="zarfyat_rah" Type="int" />
+    <Property Name="addres_os" Type="nvarchar" MaxLength="250" />
+    <Property Name="mob_os" Type="nchar" MaxLength="13" />
+    <Property Name="fall" Type="int" />
+    <Property Name="mail" Type="nvarchar" MaxLength="200" />
+    <Property Name="date_sabt" Type="nchar" MaxLength="10" />
+    <Property Name="time_sabt" Type="nchar" MaxLength="10" />
+    <Property Name="payeh" Type="int" />
+    <Property Name="type_ham" Type="int" />
+    <Property Name="code_sazmani" Type="nvarchar" MaxLength="25" />
+    <Property Name="groh_karbari" Type="int" />
+    <Property Name="ozv_shora" Type="int" />
+    <Property Name="file_madarek" Type="nvarchar" MaxLength="50" />
+    <Property Name="jens" Type="int" />
+    <Property Name="pic_os" Type="nchar" MaxLength="20" />
+    <Property Name="tayed_os" Type="int" />
+    <Property Name="num_hesab" Type="nvarchar" MaxLength="50" />
+    <Property Name="bank_id" Type="int" />
+    <Property Name="mahal_t" Type="nvarchar" MaxLength="30" />
+    <Property Name="tarikh_t" Type="nvarchar" MaxLength="10" />
+    <Property Name="mahal_sodor" Type="nvarchar" MaxLength="30" />
+    <Property Name="mahal_sodor_ost" Type="int" />
+    <Property Name="lock_madr" Type="int" />
+    <Property Name="sh_shn" Type="nvarchar" MaxLength="20" />
+    <Property Name="bimeh" Type="nvarchar" MaxLength="10" />
+    <Property Name="mahal_estekhdam" Type="nvarchar" MaxLength="80" />
+    <Property Name="FaName" Type="nvarchar" MaxLength="50" />
+    <Property Name="ZarfyatDav" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_fostad_head_fostad">
+    <End Role="fostad" Type="Self.fostad" Multiplicity="1" />
+    <End Role="fostad_head" Type="Self.fostad_head" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="fostad">
+        <PropertyRef Name="code_ostad" />
+      </Principal>
+      <Dependent Role="fostad_head">
+        <PropertyRef Name="ocode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="fn_GetInvalidNationalCodesList" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="true" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <ReturnType>
+      <CollectionType>
+        <RowType>
+          <Property Name="code_ostad" Type="numeric" Precision="18" Scale="0" />
+          <Property Name="idd_meli" Type="varchar" MaxLength="20" />
+          <Property Name="name" Type="varchar" MaxLength="30" />
+          <Property Name="family" Type="varchar" MaxLength="40" />
+          <Property Name="dbName" Type="varchar" MaxLength="40" />
+        </RowType>
+      </CollectionType>
+    </ReturnType>
+  </Function>
+  <EntityContainer Name="amozeshModelStoreContainer">
+    <EntitySet Name="fostad" EntityType="Self.fostad" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="fostad_head" EntityType="Self.fostad_head" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="vOs_tb_TheseDb" EntityType="Self.vOs_tb_TheseDb" store:Type="Views" store:Schema="dbo">
+      <DefiningQuery>SELECT 
+    [vOs_tb_TheseDb].[id_os] AS [id_os], 
+    [vOs_tb_TheseDb].[name_os] AS [name_os], 
+    [vOs_tb_TheseDb].[famili_os] AS [famili_os], 
+    [vOs_tb_TheseDb].[resh] AS [resh], 
+    [vOs_tb_TheseDb].[magta] AS [magta], 
+    [vOs_tb_TheseDb].[rotbe] AS [rotbe], 
+    [vOs_tb_TheseDb].[groh] AS [groh], 
+    [vOs_tb_TheseDb].[zarfyat_mosh] AS [zarfyat_mosh], 
+    [vOs_tb_TheseDb].[pass] AS [pass], 
+    [vOs_tb_TheseDb].[tayed] AS [tayed], 
+    [vOs_tb_TheseDb].[code_meli] AS [code_meli], 
+    [vOs_tb_TheseDb].[savabegh] AS [savabegh], 
+    [vOs_tb_TheseDb].[semat] AS [semat], 
+    [vOs_tb_TheseDb].[zarfyat_rah] AS [zarfyat_rah], 
+    [vOs_tb_TheseDb].[addres_os] AS [addres_os], 
+    [vOs_tb_TheseDb].[mob_os] AS [mob_os], 
+    [vOs_tb_TheseDb].[fall] AS [fall], 
+    [vOs_tb_TheseDb].[mail] AS [mail], 
+    [vOs_tb_TheseDb].[date_sabt] AS [date_sabt], 
+    [vOs_tb_TheseDb].[time_sabt] AS [time_sabt], 
+    [vOs_tb_TheseDb].[payeh] AS [payeh], 
+    [vOs_tb_TheseDb].[type_ham] AS [type_ham], 
+    [vOs_tb_TheseDb].[code_sazmani] AS [code_sazmani], 
+    [vOs_tb_TheseDb].[groh_karbari] AS [groh_karbari], 
+    [vOs_tb_TheseDb].[ozv_shora] AS [ozv_shora], 
+    [vOs_tb_TheseDb].[file_madarek] AS [file_madarek], 
+    [vOs_tb_TheseDb].[jens] AS [jens], 
+    [vOs_tb_TheseDb].[pic_os] AS [pic_os], 
+    [vOs_tb_TheseDb].[tayed_os] AS [tayed_os], 
+    [vOs_tb_TheseDb].[num_hesab] AS [num_hesab], 
+    [vOs_tb_TheseDb].[bank_id] AS [bank_id], 
+    [vOs_tb_TheseDb].[mahal_t] AS [mahal_t], 
+    [vOs_tb_TheseDb].[tarikh_t] AS [tarikh_t], 
+    [vOs_tb_TheseDb].[mahal_sodor] AS [mahal_sodor], 
+    [vOs_tb_TheseDb].[mahal_sodor_ost] AS [mahal_sodor_ost], 
+    [vOs_tb_TheseDb].[lock_madr] AS [lock_madr], 
+    [vOs_tb_TheseDb].[sh_shn] AS [sh_shn], 
+    [vOs_tb_TheseDb].[bimeh] AS [bimeh], 
+    [vOs_tb_TheseDb].[mahal_estekhdam] AS [mahal_estekhdam], 
+    [vOs_tb_TheseDb].[FaName] AS [FaName], 
+    [vOs_tb_TheseDb].[ZarfyatDav] AS [ZarfyatDav]
+    FROM [dbo].[vOs_tb_TheseDb] AS [vOs_tb_TheseDb]</DefiningQuery>
+    </EntitySet>
+    <AssociationSet Name="FK_fostad_head_fostad" Association="Self.FK_fostad_head_fostad">
+      <End Role="fostad" EntitySet="fostad" />
+      <End Role="fostad_head" EntitySet="fostad_head" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

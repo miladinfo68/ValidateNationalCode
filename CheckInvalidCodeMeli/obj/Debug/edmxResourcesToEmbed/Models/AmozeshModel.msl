@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="amozeshModelStoreContainer" CdmEntityContainer="amozeshEntities">
+    <EntitySetMapping Name="fostads">
+      <EntityTypeMapping TypeName="amozeshModel.fostad">
+        <MappingFragment StoreEntitySet="fostad">
+          <ScalarProperty Name="code_ostad" ColumnName="code_ostad" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="family" ColumnName="family" />
+          <ScalarProperty Name="namep" ColumnName="namep" />
+          <ScalarProperty Name="idd" ColumnName="idd" />
+          <ScalarProperty Name="idd_meli" ColumnName="idd_meli" />
+          <ScalarProperty Name="sex" ColumnName="sex" />
+          <ScalarProperty Name="nsex" ColumnName="nsex" />
+          <ScalarProperty Name="idmadrak" ColumnName="idmadrak" />
+          <ScalarProperty Name="namemadrak" ColumnName="namemadrak" />
+          <ScalarProperty Name="idresh" ColumnName="idresh" />
+          <ScalarProperty Name="nameresh" ColumnName="nameresh" />
+          <ScalarProperty Name="martabeh" ColumnName="martabeh" />
+          <ScalarProperty Name="namemartabeh" ColumnName="namemartabeh" />
+          <ScalarProperty Name="nahveh_hamk" ColumnName="nahveh_hamk" />
+          <ScalarProperty Name="name_nahveh" ColumnName="name_nahveh" />
+          <ScalarProperty Name="saat_movazaf" ColumnName="saat_movazaf" />
+          <ScalarProperty Name="code_sazman" ColumnName="code_sazman" />
+          <ScalarProperty Name="sal_tav" ColumnName="sal_tav" />
+          <ScalarProperty Name="mahal_tav" ColumnName="mahal_tav" />
+          <ScalarProperty Name="name_mahal_tav" ColumnName="name_mahal_tav" />
+          <ScalarProperty Name="mahal_sodor" ColumnName="mahal_sodor" />
+          <ScalarProperty Name="name_mahal_sodor" ColumnName="name_mahal_sodor" />
+          <ScalarProperty Name="sal_madrak" ColumnName="sal_madrak" />
+          <ScalarProperty Name="keshvar" ColumnName="keshvar" />
+          <ScalarProperty Name="name_keshvar" ColumnName="name_keshvar" />
+          <ScalarProperty Name="type_university" ColumnName="type_university" />
+          <ScalarProperty Name="nametypeuniversity" ColumnName="nametypeuniversity" />
+          <ScalarProperty Name="university" ColumnName="university" />
+          <ScalarProperty Name="nameuniversity" ColumnName="nameuniversity" />
+          <ScalarProperty Name="idgroup" ColumnName="idgroup" />
+          <ScalarProperty Name="namegroup" ColumnName="namegroup" />
+          <ScalarProperty Name="date_est" ColumnName="date_est" />
+          <ScalarProperty Name="vaz_fali" ColumnName="vaz_fali" />
+          <ScalarProperty Name="name_vaz" ColumnName="name_vaz" />
+          <ScalarProperty Name="type_est" ColumnName="type_est" />
+          <ScalarProperty Name="name_type_est" ColumnName="name_type_est" />
+          <ScalarProperty Name="add_kar" ColumnName="add_kar" />
+          <ScalarProperty Name="add_hom" ColumnName="add_hom" />
+          <ScalarProperty Name="tel_kar" ColumnName="tel_kar" />
+          <ScalarProperty Name="tel_hom" ColumnName="tel_hom" />
+          <ScalarProperty Name="saat_tadris" ColumnName="saat_tadris" />
+          <ScalarProperty Name="add_email" ColumnName="add_email" />
+          <ScalarProperty Name="semat" ColumnName="semat" />
+          <ScalarProperty Name="siba" ColumnName="siba" />
+          <ScalarProperty Name="mobile" ColumnName="mobile" />
+          <ScalarProperty Name="code_posti" ColumnName="code_posti" />
+          <ScalarProperty Name="rial_ost" ColumnName="rial_ost" />
+          <ScalarProperty Name="rial_ost2" ColumnName="rial_ost2" />
+          <ScalarProperty Name="payeh" ColumnName="payeh" />
+          <ScalarProperty Name="add_email2" ColumnName="add_email2" />
+          <ScalarProperty Name="ozv_elmi" ColumnName="ozv_elmi" />
+          <ScalarProperty Name="sanavat_azad" ColumnName="sanavat_azad" />
+          <ScalarProperty Name="sanavat_vahed" ColumnName="sanavat_vahed" />
+          <ScalarProperty Name="hamkari_pp" ColumnName="hamkari_pp" />
+          <ScalarProperty Name="avrg_tadris" ColumnName="avrg_tadris" />
+          <ScalarProperty Name="hamkar_out" ColumnName="hamkar_out" />
+          <ScalarProperty Name="tadris_magh" ColumnName="tadris_magh" />
+          <ScalarProperty Name="vaz_nomreh" ColumnName="vaz_nomreh" />
+          <ScalarProperty Name="shekayat" ColumnName="shekayat" />
+          <ScalarProperty Name="ConvertData" ColumnName="ConvertData" />
+          <ScalarProperty Name="os_idresh" ColumnName="os_idresh" />
+          <ScalarProperty Name="saat_tad1" ColumnName="saat_tad1" />
+          <ScalarProperty Name="IsEmailSend" ColumnName="IsEmailSend" />
+          <ScalarProperty Name="arzeshost" ColumnName="arzeshost" />
+          <ScalarProperty Name="citybank" ColumnName="citybank" />
+          <ScalarProperty Name="citybsnk" ColumnName="citybsnk" />
+          <ScalarProperty Name="shobbank" ColumnName="shobbank" />
+          <ScalarProperty Name="codebank" ColumnName="codebank" />
+          <ScalarProperty Name="old_code" ColumnName="old_code" />
+          <ScalarProperty Name="aa" ColumnName="aa" />
+          <ScalarProperty Name="omomi" ColumnName="omomi" />
+          <ScalarProperty Name="elmi" ColumnName="elmi" />
+          <ScalarProperty Name="nezam" ColumnName="nezam" />
+          <ScalarProperty Name="date_elmi" ColumnName="date_elmi" />
+          <ScalarProperty Name="num_elmi" ColumnName="num_elmi" />
+          <ScalarProperty Name="date_omomi" ColumnName="date_omomi" />
+          <ScalarProperty Name="num_omomi" ColumnName="num_omomi" />
+          <ScalarProperty Name="sharh" ColumnName="sharh" />
+          <ScalarProperty Name="DATE_TAV" ColumnName="DATE_TAV" />
+          <ScalarProperty Name="NATIONALITY" ColumnName="NATIONALITY" />
+          <ScalarProperty Name="CODE_BIMEH" ColumnName="CODE_BIMEH" />
+          <ScalarProperty Name="CODE_BAYEGAN" ColumnName="CODE_BAYEGAN" />
+          <ScalarProperty Name="SMS_WEB" ColumnName="SMS_WEB" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="fostad_head">
+      <EntityTypeMapping TypeName="amozeshModel.fostad_head">
+        <MappingFragment StoreEntitySet="fostad_head">
+          <ScalarProperty Name="MARTABEH_HAGH" ColumnName="MARTABEH_HAGH" />
+          <ScalarProperty Name="MASH_BIM" ColumnName="MASH_BIM" />
+          <ScalarProperty Name="TAX" ColumnName="TAX" />
+          <ScalarProperty Name="num_omomi" ColumnName="num_omomi" />
+          <ScalarProperty Name="date_omomi" ColumnName="date_omomi" />
+          <ScalarProperty Name="num_elmi" ColumnName="num_elmi" />
+          <ScalarProperty Name="date_elmi" ColumnName="date_elmi" />
+          <ScalarProperty Name="elmi" ColumnName="elmi" />
+          <ScalarProperty Name="omomi" ColumnName="omomi" />
+          <ScalarProperty Name="payeh" ColumnName="payeh" />
+          <ScalarProperty Name="semat" ColumnName="semat" />
+          <ScalarProperty Name="saat_tadris" ColumnName="saat_tadris" />
+          <ScalarProperty Name="type_est" ColumnName="type_est" />
+          <ScalarProperty Name="vaz_fali" ColumnName="vaz_fali" />
+          <ScalarProperty Name="date_est" ColumnName="date_est" />
+          <ScalarProperty Name="university" ColumnName="university" />
+          <ScalarProperty Name="type_university" ColumnName="type_university" />
+          <ScalarProperty Name="keshvar" ColumnName="keshvar" />
+          <ScalarProperty Name="sal_madrak" ColumnName="sal_madrak" />
+          <ScalarProperty Name="saat_movazaf" ColumnName="saat_movazaf" />
+          <ScalarProperty Name="nahveh_hamk" ColumnName="nahveh_hamk" />
+          <ScalarProperty Name="martabeh" ColumnName="martabeh" />
+          <ScalarProperty Name="idmadrak" ColumnName="idmadrak" />
+          <ScalarProperty Name="idgroup" ColumnName="idgroup" />
+          <ScalarProperty Name="os_idresh" ColumnName="os_idresh" />
+          <ScalarProperty Name="azterm" ColumnName="azterm" />
+          <ScalarProperty Name="ocode" ColumnName="ocode" />
+          <ScalarProperty Name="id" ColumnName="id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vOs_tb_TheseDb">
+      <EntityTypeMapping TypeName="amozeshModel.vOs_tb_TheseDb">
+        <MappingFragment StoreEntitySet="vOs_tb_TheseDb">
+          <ScalarProperty Name="ZarfyatDav" ColumnName="ZarfyatDav" />
+          <ScalarProperty Name="FaName" ColumnName="FaName" />
+          <ScalarProperty Name="mahal_estekhdam" ColumnName="mahal_estekhdam" />
+          <ScalarProperty Name="bimeh" ColumnName="bimeh" />
+          <ScalarProperty Name="sh_shn" ColumnName="sh_shn" />
+          <ScalarProperty Name="lock_madr" ColumnName="lock_madr" />
+          <ScalarProperty Name="mahal_sodor_ost" ColumnName="mahal_sodor_ost" />
+          <ScalarProperty Name="mahal_sodor" ColumnName="mahal_sodor" />
+          <ScalarProperty Name="tarikh_t" ColumnName="tarikh_t" />
+          <ScalarProperty Name="mahal_t" ColumnName="mahal_t" />
+          <ScalarProperty Name="bank_id" ColumnName="bank_id" />
+          <ScalarProperty Name="num_hesab" ColumnName="num_hesab" />
+          <ScalarProperty Name="tayed_os" ColumnName="tayed_os" />
+          <ScalarProperty Name="pic_os" ColumnName="pic_os" />
+          <ScalarProperty Name="jens" ColumnName="jens" />
+          <ScalarProperty Name="file_madarek" ColumnName="file_madarek" />
+          <ScalarProperty Name="ozv_shora" ColumnName="ozv_shora" />
+          <ScalarProperty Name="groh_karbari" ColumnName="groh_karbari" />
+          <ScalarProperty Name="code_sazmani" ColumnName="code_sazmani" />
+          <ScalarProperty Name="type_ham" ColumnName="type_ham" />
+          <ScalarProperty Name="payeh" ColumnName="payeh" />
+          <ScalarProperty Name="time_sabt" ColumnName="time_sabt" />
+          <ScalarProperty Name="date_sabt" ColumnName="date_sabt" />
+          <ScalarProperty Name="mail" ColumnName="mail" />
+          <ScalarProperty Name="fall" ColumnName="fall" />
+          <ScalarProperty Name="mob_os" ColumnName="mob_os" />
+          <ScalarProperty Name="addres_os" ColumnName="addres_os" />
+          <ScalarProperty Name="zarfyat_rah" ColumnName="zarfyat_rah" />
+          <ScalarProperty Name="semat" ColumnName="semat" />
+          <ScalarProperty Name="savabegh" ColumnName="savabegh" />
+          <ScalarProperty Name="code_meli" ColumnName="code_meli" />
+          <ScalarProperty Name="tayed" ColumnName="tayed" />
+          <ScalarProperty Name="pass" ColumnName="pass" />
+          <ScalarProperty Name="zarfyat_mosh" ColumnName="zarfyat_mosh" />
+          <ScalarProperty Name="groh" ColumnName="groh" />
+          <ScalarProperty Name="rotbe" ColumnName="rotbe" />
+          <ScalarProperty Name="magta" ColumnName="magta" />
+          <ScalarProperty Name="resh" ColumnName="resh" />
+          <ScalarProperty Name="famili_os" ColumnName="famili_os" />
+          <ScalarProperty Name="name_os" ColumnName="name_os" />
+          <ScalarProperty Name="id_os" ColumnName="id_os" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="fn_GetInvalidNationalCodesList" FunctionName="amozeshModel.Store.fn_GetInvalidNationalCodesList">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="amozeshModel.fn_GetInvalidNationalCodesList_Result">
+          <ScalarProperty Name="code_ostad" ColumnName="code_ostad" />
+          <ScalarProperty Name="idd_meli" ColumnName="idd_meli" />
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="family" ColumnName="family" />
+          <ScalarProperty Name="dbName" ColumnName="dbName" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

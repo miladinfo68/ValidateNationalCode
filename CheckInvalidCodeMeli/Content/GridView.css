@@ -1,0 +1,23 @@
+﻿
+.tableStyle {
+    width: 100%;
+    margin: 0, auto;
+    direction:rtl;
+   
+
+    background-color: darkseagreen;
+    box-shadow: inset;
+    grid-column-align: end;
+    grid-row-align: stretch;    
+   
+}
+
+.headerStyle {
+    text-align:left;
+    font-family: Arial;
+    font-size: 20px;
+}
+.alternatingRowStyle{
+    
+    background-color:lightgray;
+}

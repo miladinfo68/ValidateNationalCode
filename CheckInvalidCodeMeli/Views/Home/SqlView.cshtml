@@ -1,0 +1,131 @@
+﻿@model IEnumerable<SqlViewVM>
+
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>SqlView</title>
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/Helper.css" rel="stylesheet" />
+    <style>
+        #first {
+            direction: rtl;
+            text-align: center;
+            width: 50% !important;
+            margin: 0 auto;
+            background-color: rosybrown;
+        }
+
+        #divtotalrecords {
+            margin-top: 20px;
+        }
+
+        #lblTotalRecorsd {
+            margin-top: 7px;
+        }
+
+        .table tr:first-child {
+            background-color: blue;
+            color: white;
+        }
+
+        .table-hover > tbody > tr:hover > td, .table-hover > tbody > tr:hover > th {
+            background-color: blue;
+        }
+
+        .table {
+            margin-top: 20px !important;
+        }
+
+        th {
+            text-align: center;
+        }
+
+        .btn-info {
+            color: #fff;
+            background-color: orangered;
+            border-color: #46b8da;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div id="first">
+        <div class="container">
+
+            <div id="divtotalrecords" class="row">
+                <div class="col-md-2 col-md-offset-1">
+                    <a href="/home/ExportExcelFile" class="btn btn-info " role="button" title="خــــــروجی Excel"> خــــــروجی Excel</a>
+                </div>
+
+                <div class="col-md-5">
+                    <input type="text" id="txtTotalRecorsd" disabled="disabled" value=@ViewBag.TotalCount class="form-control disabled" />
+                </div>
+
+                <div class="col-md-3">
+                    <label id="lblTotalRecorsd" title="مجموع رکورد های نا معتبر">مجموع رکورد های نا معتبر</label>
+                </div>
+            </div>
+
+            <table class="table table-bordered  table-hover table-condensed table-responsive ">
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.CodeOstad)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.IddMeli)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Name)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Family)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DbName)
+                    </th>
+                </tr>
+
+                @{
+                    int i = 0;
+                    string cssClass = "";
+                }
+
+
+                @foreach (var item in Model)
+            {
+                cssClass = (i++ % 2) == 0 ? "success" : "warning";
+                    <tr class="@cssClass">
+                        <td>
+                            @Html.DisplayFor(modelItem => item.CodeOstad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IddMeli)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Family)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DbName)
+                        </td>
+                        @*<td>
+                                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+                            </td>*@
+                    </tr>
+                }
+
+            </table>
+        </div>
+    </div>
+</body>
+
+
+</html>

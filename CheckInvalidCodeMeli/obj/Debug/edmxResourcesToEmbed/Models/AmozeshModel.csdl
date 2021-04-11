@@ -1,0 +1,206 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="amozeshModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="fostad">
+    <Key>
+      <PropertyRef Name="code_ostad" />
+    </Key>
+    <Property Name="code_ostad" Type="Decimal" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="name" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="family" Type="String" MaxLength="40" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="namep" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="idd" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="idd_meli" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="sex" Type="Byte" Nullable="false" />
+    <Property Name="nsex" Type="String" MaxLength="10" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="idmadrak" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="namemadrak" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="idresh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="nameresh" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="martabeh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="namemartabeh" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="nahveh_hamk" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="name_nahveh" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="saat_movazaf" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="code_sazman" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="sal_tav" Type="String" MaxLength="10" FixedLength="false" Unicode="false" />
+    <Property Name="mahal_tav" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="name_mahal_tav" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="mahal_sodor" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="name_mahal_sodor" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="sal_madrak" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="keshvar" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="name_keshvar" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="type_university" Type="Int32" />
+    <Property Name="nametypeuniversity" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="university" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="nameuniversity" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="idgroup" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="namegroup" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="date_est" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="vaz_fali" Type="Int32" />
+    <Property Name="name_vaz" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="type_est" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="name_type_est" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="add_kar" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="add_hom" Type="String" MaxLength="300" FixedLength="false" Unicode="false" />
+    <Property Name="tel_kar" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="tel_hom" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="saat_tadris" Type="Int32" />
+    <Property Name="add_email" Type="String" MaxLength="60" FixedLength="false" Unicode="false" />
+    <Property Name="semat" Type="Byte" />
+    <Property Name="siba" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="mobile" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="code_posti" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="rial_ost" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="rial_ost2" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="payeh" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="add_email2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ozv_elmi" Type="Int64" />
+    <Property Name="sanavat_azad" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="sanavat_vahed" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="hamkari_pp" Type="String" MaxLength="2" FixedLength="false" Unicode="false" />
+    <Property Name="avrg_tadris" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="hamkar_out" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="tadris_magh" Type="String" MaxLength="6" FixedLength="false" Unicode="false" />
+    <Property Name="vaz_nomreh" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="shekayat" Type="String" MaxLength="1" FixedLength="false" Unicode="false" />
+    <Property Name="ConvertData" Type="Byte" />
+    <Property Name="os_idresh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="saat_tad1" Type="Int32" />
+    <Property Name="IsEmailSend" Type="Boolean" />
+    <Property Name="arzeshost" Type="String" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="citybank" Type="String" MaxLength="30" FixedLength="false" Unicode="false" />
+    <Property Name="citybsnk" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="shobbank" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="codebank" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="old_code" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="aa" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="omomi" Type="Byte" />
+    <Property Name="elmi" Type="Byte" />
+    <Property Name="nezam" Type="Byte" />
+    <Property Name="date_elmi" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="num_elmi" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="date_omomi" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="num_omomi" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="sharh" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+    <Property Name="DATE_TAV" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="NATIONALITY" Type="Byte" />
+    <Property Name="CODE_BIMEH" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="CODE_BAYEGAN" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="SMS_WEB" Type="Boolean" />
+    <NavigationProperty Name="fostad_head" Relationship="amozeshModel.FK_fostad_head_fostad" FromRole="fostad" ToRole="fostad_head" />
+  </EntityType>
+  <EntityContainer Name="amozeshEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="fostads" EntityType="Self.fostad" />
+    <EntitySet Name="fostad_head" EntityType="amozeshModel.fostad_head" />
+    <EntitySet Name="vOs_tb_TheseDb" EntityType="amozeshModel.vOs_tb_TheseDb" />
+    <AssociationSet Name="FK_fostad_head_fostad" Association="amozeshModel.FK_fostad_head_fostad">
+      <End Role="fostad" EntitySet="fostads" />
+      <End Role="fostad_head" EntitySet="fostad_head" />
+    </AssociationSet>
+    <FunctionImport Name="fn_GetInvalidNationalCodesList" IsComposable="true" ReturnType="Collection(amozeshModel.fn_GetInvalidNationalCodesList_Result)" />
+  </EntityContainer>
+  <EntityType Name="fostad_head">
+    <Key>
+      <PropertyRef Name="ocode" />
+      <PropertyRef Name="azterm" />
+    </Key>
+    <Property Name="id" Type="Decimal" Nullable="false" Precision="18" Scale="0" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ocode" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="azterm" Type="String" Nullable="false" MaxLength="7" FixedLength="false" Unicode="false" />
+    <Property Name="os_idresh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="idgroup" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="idmadrak" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="martabeh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="nahveh_hamk" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="saat_movazaf" Type="Decimal" Precision="19" Scale="4" />
+    <Property Name="sal_madrak" Type="String" MaxLength="4" FixedLength="false" Unicode="false" />
+    <Property Name="keshvar" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="type_university" Type="Int32" />
+    <Property Name="university" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="date_est" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="vaz_fali" Type="Int32" />
+    <Property Name="type_est" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="saat_tadris" Type="Int32" />
+    <Property Name="semat" Type="Byte" />
+    <Property Name="payeh" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="omomi" Type="Byte" />
+    <Property Name="elmi" Type="Byte" />
+    <Property Name="date_elmi" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="num_elmi" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="date_omomi" Type="String" MaxLength="8" FixedLength="false" Unicode="false" />
+    <Property Name="num_omomi" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="TAX" Type="Byte" />
+    <Property Name="MASH_BIM" Type="Byte" />
+    <Property Name="MARTABEH_HAGH" Type="Decimal" Precision="18" Scale="0" />
+    <NavigationProperty Name="fostad" Relationship="amozeshModel.FK_fostad_head_fostad" FromRole="fostad_head" ToRole="fostad" />
+  </EntityType>
+  <EntityType Name="vOs_tb_TheseDb">
+    <Key>
+      <PropertyRef Name="id_os" />
+      <PropertyRef Name="name_os" />
+      <PropertyRef Name="famili_os" />
+      <PropertyRef Name="ZarfyatDav" />
+    </Key>
+    <Property Name="id_os" Type="Decimal" Nullable="false" Precision="18" Scale="0" />
+    <Property Name="name_os" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="famili_os" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="resh" Type="String" MaxLength="150" FixedLength="false" Unicode="true" />
+    <Property Name="magta" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="rotbe" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="groh" Type="Decimal" Precision="18" Scale="0" />
+    <Property Name="zarfyat_mosh" Type="Int32" />
+    <Property Name="pass" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="tayed" Type="Int32" />
+    <Property Name="code_meli" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="savabegh" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <Property Name="semat" Type="Int32" />
+    <Property Name="zarfyat_rah" Type="Int32" />
+    <Property Name="addres_os" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="mob_os" Type="String" MaxLength="13" FixedLength="true" Unicode="true" />
+    <Property Name="fall" Type="Int32" />
+    <Property Name="mail" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="date_sabt" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="time_sabt" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="payeh" Type="Int32" />
+    <Property Name="type_ham" Type="Int32" />
+    <Property Name="code_sazmani" Type="String" MaxLength="25" FixedLength="false" Unicode="true" />
+    <Property Name="groh_karbari" Type="Int32" />
+    <Property Name="ozv_shora" Type="Int32" />
+    <Property Name="file_madarek" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="jens" Type="Int32" />
+    <Property Name="pic_os" Type="String" MaxLength="20" FixedLength="true" Unicode="true" />
+    <Property Name="tayed_os" Type="Int32" />
+    <Property Name="num_hesab" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="bank_id" Type="Int32" />
+    <Property Name="mahal_t" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="tarikh_t" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="mahal_sodor" Type="String" MaxLength="30" FixedLength="false" Unicode="true" />
+    <Property Name="mahal_sodor_ost" Type="Int32" />
+    <Property Name="lock_madr" Type="Int32" />
+    <Property Name="sh_shn" Type="String" MaxLength="20" FixedLength="false" Unicode="true" />
+    <Property Name="bimeh" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="mahal_estekhdam" Type="String" MaxLength="80" FixedLength="false" Unicode="true" />
+    <Property Name="FaName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ZarfyatDav" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_fostad_head_fostad">
+    <End Type="amozeshModel.fostad" Role="fostad" Multiplicity="1" />
+    <End Type="amozeshModel.fostad_head" Role="fostad_head" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="fostad">
+        <PropertyRef Name="code_ostad" />
+      </Principal>
+      <Dependent Role="fostad_head">
+        <PropertyRef Name="ocode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="fn_GetInvalidNationalCodesList_Result">
+    <Property Type="Decimal" Name="code_ostad" Nullable="true" Precision="18" Scale="0" />
+    <Property Type="String" Name="idd_meli" Nullable="true" MaxLength="20" />
+    <Property Type="String" Name="name" Nullable="true" MaxLength="30" />
+    <Property Type="String" Name="family" Nullable="true" MaxLength="40" />
+    <Property Type="String" Name="dbName" Nullable="true" MaxLength="40" />
+  </ComplexType>
+</Schema>
